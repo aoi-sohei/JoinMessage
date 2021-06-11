@@ -1,0 +1,6 @@
+name: JoinMessage
+version: ${project.version}
+main: xyz.aoissx.plugin.joinmessage.JoinMessage
+api-version: 1.16
+load: STARTUP
+description: サーバー入室時メッセージ変更
