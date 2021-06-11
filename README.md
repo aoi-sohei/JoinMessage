@@ -4,7 +4,7 @@ This plugin is maked for practice by AoiSohei.
 
 #Discription
 
-when a player with OP enters server,
-server says Message in GOLD letters.
-Also other player with OP enters server,
-server says Message in Yellow letters.
+when players with OP enter the server,
+server say joinMessage in GOLD letters.
+Also other players with OP enter the server,
+server say joinMessage in Yellow letters.
