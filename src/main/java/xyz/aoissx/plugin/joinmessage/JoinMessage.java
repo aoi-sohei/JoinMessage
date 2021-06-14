@@ -28,8 +28,10 @@ public final class JoinMessage extends JavaPlugin implements Listener {
         String msg = "さんがやってきました！";
         if(p.isOp()){
             e.setJoinMessage(ChatColor.GOLD + p.getName() + ChatColor.WHITE +msg);
+            
         }else {
             e.setJoinMessage(ChatColor.YELLOW + p.getName() + ChatColor.WHITE +msg);
+            p.sendMessage("ようこそBitsサーバーへ！");
         }
     }
 }
